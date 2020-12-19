@@ -1,0 +1,26 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node -r ts-node/register ./src/main.ts"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-typescript": "7.9.0",
+    "@types/express": "^4.17.8",
+    "@types/jest": "25.2.3",
+    "@types/node": "14.0.5",
+    "@types/rethinkdb": "2.3.16",
+    "babel-jest": "26.0.1",
+    "jest": "26.0.1",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "ts-node": "8.10.1",
+    "typescript": "3.9.3"
+  }
+}
